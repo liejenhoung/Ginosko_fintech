@@ -124,6 +124,8 @@ $(document).ready(function() {
     });
 
     // Hide residual
+	table.column(2).visible(false);
+	table.column(3).visible(false);
     table.column(7).visible(false);
 
 });
@@ -203,6 +205,8 @@ function buttonClicked(source) {
     });
 
     // Hide residual
+	table.column(2).visible(false);
+	table.column(3).visible(false);
     table.column(7).visible(false);
 
 }
@@ -315,6 +319,8 @@ function purchaseClicked(source) {
     });
 
     // Hide residual
+	table.column(2).visible(false);
+	table.column(3).visible(false);
     table.column(7).visible(false);
 
 }
